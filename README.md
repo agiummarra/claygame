@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icons/logo.png" alt="ClayGame" width="360">
+</p>
+
 # ClayGame (versione web)
 
 **▶ Gioca online: https://agiummarra.github.io/claygame/**  ·  [Guida per l'insegnante](https://agiummarra.github.io/claygame/guida-insegnante.html)

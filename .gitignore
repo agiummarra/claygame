@@ -1,0 +1,9 @@
+# Sorgenti Flash originali: molto grandi (1,7 GB), con eseguibili e Flash Player che non vanno ridistribuiti
+Riferimenti/
+
+# Cartelle di lavoro e file di sistema
+.claude/
+.extract_tmp/
+__pycache__/
+*.pyc
+.DS_Store

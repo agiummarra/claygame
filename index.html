@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>ClayGame</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="ClayGame: gioco per bambini (8-12 anni) sulle fasi di produzione della ceramica.">
+  <meta name="theme-color" content="#000000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ClayGame">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css?v=2026-11-22b">
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="print-area"></div>
+
+  <div id="start" class="overlay">
+    <div class="card">
+      <img id="start-logo" src="assets/icons/logo.png" alt="ClayGame">
+      <p class="sub">Scopri come nasce un vaso di ceramica!</p>
+      <button id="start-btn" type="button">Gioca</button>
+      <p><a class="guide-link" href="guida-insegnante.html" target="_blank" rel="noopener">📘 Guida per l'insegnante</a></p>
+    </div>
+  </div>
+
+  <div id="loading" class="overlay hidden"><div class="bar"><i id="loading-bar"></i></div></div>
+
+  <div id="rotate" class="overlay hidden">
+    <div class="card"><div class="phone"></div><p>Ruota il dispositivo in orizzontale per giocare meglio</p></div>
+  </div>
+
+  <div id="tools">
+    <button id="btn-sound" type="button" aria-label="Audio">🔊</button>
+    <button id="btn-full" type="button" aria-label="Schermo intero">⛶</button>
+  </div>
+
+  <script src="assets/scenes.js?v=2026-11-22b"></script>
+  <script src="js/engine.js?v=2026-11-22b"></script>
+  <script src="js/edu.js?v=2026-11-22b"></script>
+  <script src="js/game.js?v=2026-11-22b"></script>
+  <script src="js/app.js?v=2026-11-22b"></script>
+</body>
+</html>

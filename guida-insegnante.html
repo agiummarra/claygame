@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClayGame – Guida per l'insegnante</title>
+  <style>
+    @page { size: A4; margin: 16mm 15mm; }
+    body { font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif; color: #2b1a0e; line-height: 1.5; max-width: 820px; margin: 0 auto; padding: 24px 20px 60px; background: #fffaf0; }
+    h1 { color: #b3541e; font-size: 30px; margin: 0 0 4px; }
+    h2 { color: #b3541e; font-size: 21px; border-bottom: 3px solid #f3e77c; padding-bottom: 2px; margin: 28px 0 10px; break-after: avoid; }
+    h3 { font-size: 17px; margin: 16px 0 4px; break-after: avoid; }
+    .sub { margin: 0 0 18px; color: #6b4a3a; }
+    table { border-collapse: collapse; width: 100%; font-size: 15px; break-inside: avoid; }
+    th, td { border: 1px solid #d9b98f; padding: 6px 9px; vertical-align: top; text-align: left; }
+    th { background: #f3e77c; }
+    .box { background: #fff; border: 2px solid #f3e77c; border-radius: 10px; padding: 10px 16px; margin: 10px 0; break-inside: avoid; }
+    .check li { list-style: "☐  "; }
+    ol li, ul li { margin: 3px 0; }
+    .print { position: fixed; top: 14px; right: 14px; font: inherit; font-weight: bold; padding: 8px 16px; border: 2px solid #1b1b1b; border-radius: 10px; background: #e07a2e; color: #fff; cursor: pointer; }
+    .muted { color: #6b4a3a; font-size: 14px; }
+    @media print { .print { display: none; } body { background: #fff; padding: 0; max-width: none; } h2 { margin-top: 20px; } }
+  </style>
+</head>
+<body>
+  <button class="print" onclick="window.print()">🖨️ Stampa</button>
+
+  <h1>ClayGame – Guida per l'insegnante</h1>
+  <p class="sub">Un gioco per scoprire come nasce un vaso di ceramica · consigliato per la classe quinta della scuola primaria (8-12 anni)</p>
+
+  <h2>1. Il gioco in breve</h2>
+  <p>I bambini seguono tutte le fasi della produzione di un vaso, dall'impasto delle materie prime fino al vaso smaltato e decorato.
+    Dopo ogni fase una scheda <b>“Lo sapevi?”</b> spiega in parole semplici cosa è successo e perché. Il pulsante <b>🔊 Leggi</b> la legge ad alta voce.
+    Alla fine c'è un <b>quiz</b> di 7 domande e un <b>attestato</b> con il nome del bambino e il suo vaso, da stampare o salvare.</p>
+  <table>
+    <tr><th>Fase</th><th>Cosa fanno i bambini</th><th>Cosa imparano</th></tr>
+    <tr><td>1. Impastatura</td><td>Trascinano gli 8 ingredienti nell'impastatrice e la accendono.</td><td>Le materie prime della ceramica e a cosa servono.</td></tr>
+    <tr><td>2. Modellazione</td><td>Premono in ordine i 4 pulsanti del tornio.</td><td>Il tornio e le fasi del lavoro del vasaio; l'importanza dell'ordine.</td></tr>
+    <tr><td>Essiccazione</td><td>Fanno passare i giorni finché il vaso è asciutto.</td><td>Perché il vaso deve asciugare prima della cottura; il ritiro dell'argilla.</td></tr>
+    <tr><td>3. Cottura</td><td>Mettono il vaso nel forno e fermano il cursore della temperatura nel riquadro giallo.</td><td>Le alte temperature; una trasformazione che non si può invertire.</td></tr>
+    <tr><td>4. Decorazione</td><td>Scelgono il colore dello smalto e una decorazione.</td><td>Lo smalto e i colori, la maiolica.</td></tr>
+    <tr><td>Seconda cottura</td><td>Accendono il forno e vedono lo smalto diventare lucido.</td><td>Lo smalto si trasforma in vetro.</td></tr>
+  </table>
+  <p class="muted">Durata di una partita completa: 15-20 minuti circa. Non serve installare nulla e il gioco non raccoglie alcun dato sui bambini.</p>
+
+  <h2>2. Collegamenti con il programma</h2>
+  <ul>
+    <li><b>Scienze:</b> i materiali e le loro proprietà (plasticità, durezza, impermeabilità); trasformazioni dovute ad acqua e calore; trasformazioni reversibili e irreversibili; temperatura.</li>
+    <li><b>Storia:</b> la ceramica come fonte storica. I vasi greci a figure nere e rosse, il bucchero etrusco, le anfore e la terra sigillata dei Romani.</li>
+    <li><b>Tecnologia:</b> un processo produttivo in sequenza; macchine e strumenti (impastatrice, tornio, forno).</li>
+    <li><b>Arte e immagine:</b> colore, decorazione, motivi geometrici e floreali; le maioliche italiane (Faenza, Deruta, Caltagirone).</li>
+    <li><b>Italiano:</b> lessico specifico e lettura di istruzioni.</li>
+  </ul>
+
+  <h2>3. Prima dell'evento</h2>
+  <div class="box">
+    <ul class="check">
+      <li>Aprire il gioco sulla LIM o sui tablet della classe qualche giorno prima e fare una partita completa.</li>
+      <li>Verificare che il <b>trascinamento con il dito</b> funzioni sulla LIM (serve per gli ingredienti e per mettere il vaso nel forno). Se non va bene, usare la penna o il mouse.</li>
+      <li>Accendere le casse: suoni e lettura ad alta voce fanno parte del gioco. L'icona 🔊 in alto a destra attiva e disattiva l'audio.</li>
+      <li>Se la rete della scuola blocca il sito, copiare la cartella del gioco su una chiavetta USB e aprire <code>index.html</code>.</li>
+      <li>Usare il pulsante ⛶ in alto a destra per lo schermo intero.</li>
+      <li>Se si vuole stampare gli attestati, controllare che la stampante sia collegata. In alternativa: “Stampa” → “Salva come PDF”.</li>
+    </ul>
+  </div>
+
+  <h2>4. Svolgimento proposto (circa 2 ore)</h2>
+  <h3>Introduzione (15 min)</h3>
+  <p>Mostrare un oggetto di ceramica (una tazza, un vaso di terracotta) e chiedere: <i>Di che cosa è fatto? Come si fa? Perché non si scioglie se ci mettiamo l'acqua?</i> Scrivere le ipotesi alla lavagna: si riprenderanno alla fine.</p>
+  <h3>Gioco (45 min)</h3>
+  <ul>
+    <li><b>Con una sola LIM:</b> formare 5-6 squadre. A ogni turno un bambino gioca una fase. I compagni della squadra lo aiutano e uno di loro legge ad alta voce la scheda “Lo sapevi?”.</li>
+    <li><b>Con tablet o computer:</b> un dispositivo ogni 2 bambini, che si danno il cambio a ogni fase.</li>
+    <li>Il <b>quiz finale</b> rende di più fatto tutti insieme sulla LIM: le squadre discutono e scelgono la risposta, poi si legge la spiegazione.</li>
+  </ul>
+  <h3>Discussione (15 min)</h3>
+  <ul>
+    <li>Perché bisogna aggiungere gli ingredienti tutti, e i pulsanti del tornio vanno premuti in ordine?</li>
+    <li>Cosa succederebbe a un vaso cotto ancora bagnato? E a un vaso non cotto lasciato sotto la pioggia?</li>
+    <li>Quali trasformazioni del gioco si possono “tornare indietro” e quali no?</li>
+    <li>Riprendere le ipotesi scritte all'inizio: quali erano giuste?</li>
+  </ul>
+  <h3>Attività pratica (45 min)</h3>
+  <p>Modellare con argilla vera (anche quella che indurisce all'aria, senza forno) oppure con la pasta di sale.
+    Provare la tecnica del <b>colombino</b>: si sovrappongono tanti “salsicciotti” per costruire le pareti di una ciotolina.</p>
+  <div class="box"><b>Pasta di sale:</b> 2 tazze di farina, 1 tazza di sale fino, circa 1 tazza di acqua tiepida. Impastare finché è liscia.
+    Gli oggetti si lasciano asciugare all'aria per alcuni giorni oppure si cuociono nel forno di casa a bassa temperatura. Dopo si possono dipingere con le tempere.
+    <br><span class="muted">Un bel collegamento con il gioco: anche la pasta di sale deve asciugare lentamente, altrimenti si crepa.</span></div>
+  <p>Se possibile, invitare un ceramista in classe o visitare un laboratorio: vedere un tornio vero è l'esperienza che i bambini ricorderanno di più.</p>
+
+  <h2>5. Risposte del quiz</h2>
+  <table>
+    <tr><th>#</th><th>Domanda</th><th>Risposta giusta</th></tr>
+    <tr><td>1</td><td>Perché si aggiunge l'acqua all'impasto?</td><td>Per renderlo morbido e modellabile</td></tr>
+    <tr><td>2</td><td>Quale ingrediente dà alla terracotta il colore rossastro?</td><td>L'ossido di ferro</td></tr>
+    <tr><td>3</td><td>Come si chiama la ruota su cui si modella il vaso?</td><td>Il tornio</td></tr>
+    <tr><td>4</td><td>Cosa succede se metti in forno un vaso ancora bagnato?</td><td>Si può crepare o rompere</td></tr>
+    <tr><td>5</td><td>Dopo la cottura, se bagni il vaso…</td><td>Resta duro come una pietra</td></tr>
+    <tr><td>6</td><td>Cosa diventa lo smalto nella seconda cottura?</td><td>Uno strato di vetro lucido</td></tr>
+    <tr><td>7</td><td>Quale popolo antico è famoso per i vasi a figure nere e rosse?</td><td>I Greci</td></tr>
+  </table>
+
+  <h2>6. Piccolo glossario</h2>
+  <table>
+    <tr><td><b>Argilla</b></td><td>Terra finissima che, bagnata, diventa plastica e si può modellare.</td></tr>
+    <tr><td><b>Feldspato</b></td><td>Minerale che in cottura fonde e unisce i granelli dell'impasto.</td></tr>
+    <tr><td><b>Quarzo, sabbia</b></td><td>Fanno da “scheletro” all'impasto e riducono deformazioni e crepe.</td></tr>
+    <tr><td><b>Tornio</b></td><td>Ruota che gira, su cui il vasaio modella vasi rotondi.</td></tr>
+    <tr><td><b>Colombino</b></td><td>Tecnica a mano: si sovrappongono cordoni di argilla.</td></tr>
+    <tr><td><b>Essiccazione</b></td><td>Il vaso perde lentamente l'acqua prima della cottura e si restringe un po'.</td></tr>
+    <tr><td><b>Biscotto</b></td><td>Il vaso dopo la prima cottura: duro, ma ancora poroso.</td></tr>
+    <tr><td><b>Smalto</b></td><td>Polvere di vetro con ossidi colorati che, cotta, diventa uno strato lucido e impermeabile.</td></tr>
+    <tr><td><b>Maiolica</b></td><td>Ceramica ricoperta di smalto e decorata, tipica di molte città italiane.</td></tr>
+    <tr><td><b>Terracotta</b></td><td>Ceramica rossastra cotta una sola volta, senza smalto.</td></tr>
+  </table>
+
+  <p class="muted" style="margin-top:28px">ClayGame è stato ideato e sviluppato in Flash da Andrea Giummarra ed è stato riscritto in HTML5 per funzionare su LIM, computer, tablet e smartphone.
+    Le informazioni sono semplificate per bambini della scuola primaria.</p>
+</body>
+</html>
